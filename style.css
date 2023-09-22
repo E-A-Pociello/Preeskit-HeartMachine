@@ -1,0 +1,334 @@
+@font-face 
+{
+    font-family: "Bones";
+    src: url("fuente/SPOOKYBONES.ttf") format(woff2);
+}
+
+@font-face
+{
+    font-family: "Bones2";
+    src: url("fuente/Bones_Bummer.ttf") format(woff2);
+}
+
+
+
+.contenedor
+{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+/*MENU*/
+nav ul
+{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+
+nav li
+{
+    
+    display: inline-block; 
+    margin-right: 100px; 
+    border: 2px solid #33333375; 
+    padding: 15px; 
+    background-color: #0000004f;
+    
+}
+
+nav a
+{
+    text-decoration: none; 
+    font-size: 30px;
+    color: #ffffff; 
+    font-family:"Bones2", sans-serif; 
+    max-width: 800px; 
+    text-align: center;
+    
+}
+
+nav a:hover
+{
+    color: #a30202; 
+}
+
+/*TITULOS*/
+.titulo
+{
+    width: 800px; 
+    margin: 0 auto; 
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid#a3020252;
+    background-image: url('imagenes/fondo.jpg');
+    background-size:auto;
+    margin-bottom: 20px;
+
+    opacity:70%;
+}
+
+/*ENLACES*/
+.enlaces
+{
+    color: #a30202;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.soundcloud
+{
+    align-items: center;
+    position: relative;
+    left: 80px;
+}
+
+.icon
+{
+    height: 100px;
+    width: 100px;
+    padding-right: 30px; 
+    height:auto; 
+    float: left;
+    margin-bottom: 60px;
+    margin-left: 100px;
+    justify-content: space-around;
+}
+
+
+.enlace-lan
+{   
+    background-color: #333;
+    color: #a30202;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #a30202;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*IMAGEN*/
+.foto{
+    width: 20%;
+    height:auto; 
+    float: left;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+.ep{
+    height: 600px;
+    width: 600px;
+    margin-bottom: 30px;
+
+
+}
+
+
+/*SECCIONES*/
+section {
+    
+    max-width: 800px; 
+    margin: 0 auto;
+    margin-bottom: 20px; 
+    
+}
+
+/*CUERPO*/
+body 
+{
+    background-color:rgba(0, 0, 0, 0.5);
+    background-image: url('imagenes/fondo3.jpg');
+    background-size:cover; 
+    background-attachment: fixed; 
+
+    .contenedor-Biografia
+    {
+        font-family:'Courier New', Courier, monospace;
+        margin-bottom: 20px;
+        font-size: 11px;
+    }
+
+    .contenedor-lanzamientos 
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedor-contacto
+    {
+        margin-bottom: 200px;
+
+    }
+
+    
+
+    
+    
+    
+}
+/* Encabezado */
+header 
+{
+    
+    background-color: rgba(0, 0, 0, 0.527); 
+    padding: 10px 0;
+    text-align: center;
+    
+    .logo
+    {
+        width: 50%;
+    }
+}
+
+/*TODO*/
+div#container 
+{
+    margin: 10px;
+    padding: 20px;
+    background-color:rgba(255, 255, 255, 0.11);
+    border: none;
+    color:#fff;
+    
+}
+
+/* Pie de página */
+footer 
+{
+    margin-top: 80px;
+    text-align: center;
+    padding: 2px;
+    background-color: #3333339a;
+    color: #fff;
+}
+
+@media (width <= 1000px)
+{  
+    .menu 
+    {
+        font-size: 15px;
+        width:100px;
+    }
+} 
+
+@media (width <=860px)
+{
+    header h1
+    {
+       font-size: 90%;
+    }
+
+    .icon
+    {
+        height:45px ;
+        width:45px ;
+        justify-content: space-around;
+    }
+
+    #container
+    {
+        width: 90%;
+    }
+
+    .titulo
+    {
+        width: 90%;
+        font-size: 90%;
+    }
+
+    .contenedor-lanzamientos h2
+    {
+        width: 90%;
+    }
+
+    .ep
+    {
+        height: 400px;
+        width: 400px;
+    }
+}
+
+@media (width <=600px)
+{
+    header h1
+    {
+       font-size: 90%;
+    }
+
+    .icon
+    {
+        height: 30px ;
+        width:30px ;
+        margin-left: 40px;
+    }
+
+    #container
+    {
+        width: 90%;
+    }
+
+    .titulo
+    {
+        width: 90%;
+        font-size: 90%;
+    }
+
+    .contenedor-lanzamientos h2
+    {
+        width: 90%;
+    }
+
+    .ep
+    {
+        height: 300px;
+        width: 300px;
+    }
+}
+ 
+@media (width <=450px)
+{
+    header h1
+    {
+       font-size: 70%;
+    }
+    #container
+    {
+        width: 90%;
+    }
+
+    .titulo
+    {
+        width: 90%;
+    }
+
+    .contenedor-lanzamientos h2
+    {
+        width: 90%;
+    }
+
+    .ep
+    {
+        height: 150px;
+        width: 150px;
+    }
+
+    .soundcloud
+    {
+        width: 70%;
+        
+        right: 80px;
+    }
+}
+
+
+
